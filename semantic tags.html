@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* this css for table */
+      table,th,td{
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    ul{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+     ul li{
+      float: left;
+    }
+    ul li a{
+      display: block;
+      width: 150px;
+      background-color: blue;
+      color: white;
+      text-decoration: none;
+      padding: 8px;
+      text-align: center;
+    }
+    ul li a:hover{
+      background-color: red;
+      color: white;
+    }
+
+    /* this css for static ul web */
+    #div1{
+      width: 100%;
+      height: 90px;
+      background-color: brown;
+    }
+    #div2{
+      width: 15%;
+      height: 300px;
+      background-color: blueviolet;
+      float: left;
+    }
+    #div3{
+      width: 70%;
+      height: 300px;
+      background-color: chartreuse;
+      float: left;
+    }
+    #div4{
+      width: 15%;
+      height: 300px;
+      background-color: blueviolet;
+      float: left; 
+    }
+    #div5{
+      width: 100%;
+      height: 90px;
+      background-color: crimson;
+      clear: both;
+    }
+
+    /* this css for static web ul using semantic tags */
+    header{
+      width: 100%;
+      height: 90px;
+      background-color: yellow;
+    }
+    aside{
+      width: 15%;
+      height: 300px;
+      background-color:cyan;
+      float: left;
+    } 
+    section{
+      width: 70%;
+      height: 300px;
+      background-color: palevioletred;
+      float: left;
+    }
+    article{
+      width: 15%;
+      height: 300px;
+      background-color:cyan;
+      float: left;
+    }
+    footer{
+      width: 100%;
+      height: 90px;
+      background-color: rgb(158, 126, 177); 
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <!--image as llink-->
+  <a href="https://www.w3schools.com/" target="_blank"><img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg" width="100px"></a>
+  
+<br>
+  <!--title-->
+  <a href="https://www.w3schools.com/" title="w3schools">w3schools</a>
+
+<br>
+  <!--html images-->
+  <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg" alt="images" width="100px" >
+
+  <br>
+  <!--html images gif-->
+  <img src="https://img1.picmix.com/output/stamp/normal/4/2/1/8/1778124_9c93f.gif" alt="images" width="100px">
+  
+  <br>
+  <!--float images-->
+  <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg" alt="images" width="100px"  style="float: right;">
+  
+  <br>
+  <!--table-->
+  <table>
+    <tr>
+      <th>first name</th>
+      <th> name</th>
+      <th>last name</th>
+    </tr>
+    <tr>
+      <td>s</td>
+      <td>s</td>
+      <td>s</td>
+    </tr>
+    <tr>
+      <td>s</td>
+      <td>s</td>
+      <td>s</td>
+    </tr>
+    <tr>
+      <td>s</td>
+      <td>s</td>
+      <td>s</td>
+    </tr>
+
+  </table>
+
+  <br>
+  
+  <!--UL OL list-->
+  <ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">about us</a></li>
+    <li><a href="#">user</a></li>
+    <li><a href="#">setting</a></li>
+  </ul>
+
+
+  <br>
+  <br>
+  <br>
+  <!--nav element-->
+  <nav>
+    <a href="html">HTML</a>
+    <a href="css">css</a>
+    <a href="js">js</a>
+    <a href="jq">jq</a>
+  </nav>
+
+  <br>
+  <br>
+  <!--static ul web-->
+  <div id="div1">header</div>
+  <div id="div2">aside</div>
+  <div id="div3">content</div>
+  <div id="div4">article</div>
+  <div id="div5">footer</div>
+
+  <br>
+  <br>
+  <!--static web ul using semantic tags-->
+  <header>header</header>
+  <aside>aside</aside>
+  <section>content</section>
+  <article>article</article>
+  <footer>footer</footer>
+
+  </body>
+</html>
